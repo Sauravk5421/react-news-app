@@ -81,7 +81,7 @@ function NewsApi({ category , SearchText}) {
           {category.charAt(0).toUpperCase() + category.slice(1)}
         </h1>
         <div className="card-container">
-          {news.filter((elm)=>{
+          {news?.filter((elm)=>{
 			if(elm === ''){
 				return elm;
 			} else {
