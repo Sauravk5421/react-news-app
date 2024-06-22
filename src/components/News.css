@@ -1,0 +1,47 @@
+img{
+    width: 250px;
+    height: 150px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    margin: auto;
+    width: 300px;
+   height: 500px;
+   
+   padding: 10px;
+    border: 1px solid black;
+}
+
+.card-desc{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-title{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+.hrt-icon{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.liked{
+    color: red;
+    
+}
+
